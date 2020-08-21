@@ -1,0 +1,25 @@
+package br.com.ecommerce.teste;
+
+import br.com.ecommerce.modelo.Produto;
+
+public class TesteProdutoMetodos {
+
+	public static void main(String[] args) {
+		Produto p = new Produto();
+		p.setId(1);
+		p.setDescricao("CHURROS");
+		p.setQtde(10);
+		p.setValorVenda(8);
+		p.setValorCompra(5);
+		System.out.println("Com Desconto: " + p.getDesconto());
+		System.out.println("Total: " + p.getTotalVenda());
+		System.out.println("Promocao:" + p.getPromocao(2));
+		p.setEstoque(-5);
+		System.out.println("Estoque atualizado: " + p.getQtde());
+		System.out.println("Desconto Personalizado: " + p.getDesconto(20));
+		p.setAtualizarValores(-5);
+		System.out.println("Valor Venda atualizado: " + p.getValorVenda());
+		System.out.println("Valor Compra atualizado: " + p.getValorCompra());
+	}
+
+}

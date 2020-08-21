@@ -1,0 +1,8 @@
+package br.com.universidade.modelo;
+
+public class Aluno {
+public String nome;
+private String email;
+private int rm;
+
+}

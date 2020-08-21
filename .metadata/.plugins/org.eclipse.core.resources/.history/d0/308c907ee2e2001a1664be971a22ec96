@@ -1,0 +1,23 @@
+import java.util.Scanner; 
+
+class VendaProduto{
+
+public static void main(String args[]){
+
+Scanner teclado = new Scanner(System.in);
+System.out.println("Digite o nome do produto: ");
+String produto = teclado.next();
+System.out.println("Digite a qtde: ");
+int qtde = teclado.nextInt();
+System.out.println("Digite o valor do produto: ");
+double valor=teclado.nextDouble();
+System.out.println("Produto: " + produto);
+double total = qtde * valor;
+System.out.printf("Total: %.2f\n",total);
+System.out.println("Total com desconto: " + (total * 0.9));
+
+
+}
+
+
+}

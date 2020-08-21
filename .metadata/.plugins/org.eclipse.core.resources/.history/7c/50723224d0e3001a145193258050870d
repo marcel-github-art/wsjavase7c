@@ -1,0 +1,32 @@
+package br.com.ecommerce.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.ecommerce.modelo.Colaborador;
+
+public class TesteColaborador {
+
+	public static float f(String msg) {
+		return Float.parseFloat(s(msg));
+	}
+	public static int i(String msg) {
+		return Integer.parseInt(s(msg));
+	}
+	public static String s(String msg) {
+		return JOptionPane.showInputDialog(msg).toUpperCase();
+	}
+	public static void main(String[] args) {
+		Colaborador funcionario = new Colaborador(
+				i("ID"),
+				s("Nome"),
+				s("Email"),
+				s("Fone"),
+				s("Nascimento"),
+				s("Cargo"),
+				f("Salario")
+				);
+		System.out.println(funcionario.getAll());
+
+	}
+
+}

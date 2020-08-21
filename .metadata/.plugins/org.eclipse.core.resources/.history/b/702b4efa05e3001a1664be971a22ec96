@@ -1,0 +1,21 @@
+package br.com.universidade.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.universidade.modelo.Aluno;
+
+public class TesteAluno {
+
+public static void main(String[] args) {
+	//String nome = "teste"; // criando uma variavel
+	//Scanner teclado = new Scanner(); // instanciando o objeto
+	// Aluno objeto2; // criando o objeto
+	
+	Aluno objeto = new Aluno(); // instanciando o objeto
+	objeto.preencherNome(JOptionPane.showInputDialog("Digite o nome"));
+	System.out.println(objeto.nome);
+
+	
+}
+
+}

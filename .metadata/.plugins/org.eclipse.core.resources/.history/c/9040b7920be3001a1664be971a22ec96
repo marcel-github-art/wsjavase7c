@@ -1,0 +1,17 @@
+package br.com.universidade.modelo;
+
+public class Aluno {
+	public String nome;
+	private String email;
+	private int rm;
+	// Sintaxe dos métodos
+	// <modificador> <retorno do método> <nome do método> (<tipo Param> <nome Param>, ...)
+	public void preencherNome(String pNome) {
+		nome = pNome.toUpperCase();
+	}
+
+	public String retornarNome() {
+		return nome;
+	}
+
+}
