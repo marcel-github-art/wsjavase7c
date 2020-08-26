@@ -1,4 +1,4 @@
-package br.com.commerce_heranca.atalhos;
+package br.com.ecommerce_heranca.atalhos;
 
 import javax.swing.JOptionPane;
 

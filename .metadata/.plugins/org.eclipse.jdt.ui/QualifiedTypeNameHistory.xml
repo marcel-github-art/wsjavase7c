@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="br.com.ecommerce.modelo.Colaborador"/>
 <fullyQualifiedTypeName name="br.com.universidade.atalhos.Magica"/>
+<fullyQualifiedTypeName name="br.com.universidade.modelo.Professor"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.atalhos.Magica"/>
 </qualifiedTypeNameHistroy>
