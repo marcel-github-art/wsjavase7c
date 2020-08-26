@@ -1,6 +1,8 @@
 package br.com.ecommerce.modelo;
 
-public class Produto {
+import br.com.ecommerce.interfaces.PadraoProduto;
+
+public class Produto implements PadraoProduto{
 	private int id;
 	private String descricao;
 	private int qtde;
@@ -96,6 +98,18 @@ public class Produto {
 	}
 	public void setValorVenda(float valorVenda) {
 		this.valorVenda = valorVenda;
+	}
+
+	@Override
+	public float getImposto() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String verificarEstoque() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
