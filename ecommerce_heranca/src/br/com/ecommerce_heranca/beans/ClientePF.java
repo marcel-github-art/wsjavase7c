@@ -6,6 +6,7 @@ public class ClientePF extends Cliente{
 	private String rg;
 	private String nascimento;
 	
+
 	public String getAll() {
 		return  super.getAll() + "\n" + 
 				nome + "\n" + 
