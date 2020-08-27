@@ -10,10 +10,10 @@ package br.com.universidade.modelo;
 // Sintaxe dos métodos
 // <modificador> <retorno do método> <nome do método> (<tipo Param> <nome Param>, ...)
 public class Aluno {
-	private String nome;
-	private String email;
+	private String nome="";
+	private String email="";
 	private int rm;
-	private Endereco endereco; 
+	private Endereco endereco=new Endereco(); 
 		
 	public String getNome() {
 		return nome;
