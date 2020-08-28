@@ -6,5 +6,11 @@
 <fullyQualifiedTypeName name="br.com.universidade.modelo.Professor"/>
 <fullyQualifiedTypeName name="br.com.ecommerce.atalhos.Magica"/>
 <fullyQualifiedTypeName name="br.com.ecommerce_heranca.atalhos.Magica"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.colecoes.atalhos.Magica"/>
+<fullyQualifiedTypeName name="br.com.colecoes.falhas.Excecao"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.montadora.falhas.Excecao"/>
+<fullyQualifiedTypeName name="br.com.montadora.atalhos.Magica"/>
 </qualifiedTypeNameHistroy>

@@ -7,18 +7,21 @@ public class Veiculo {
 	private int qtdePortas;
 	private int ano;
 	private List<Acessorio> acessorios;
+	
 	public String getAll() {
 		String strAcessorios="";
-		for (Acessorio a : acessorios) {
-			strAcessorios+=a.getAll() + "\n"; 
+		for (Acessorio obj : acessorios) {
+			strAcessorios+=obj.getAll() + "\n"; 
 		}
 		return 
 				"Modelo......: " + modelo + "\n" +
 				"Portas......: " + qtdePortas + "\n" + 
 				"Ano.........: " + ano + "\n" + 
-				"Acessorios..:\n " + strAcessorios; 
+				"Acessorios..: " + acessorios.size() + "\n" + 
+				strAcessorios; 
 
 	}
+	
 	public void setAll(String modelo, int qtdePortas, int ano, List<Acessorio> acessorios) {
 		this.modelo = modelo;
 		this.qtdePortas = qtdePortas;
